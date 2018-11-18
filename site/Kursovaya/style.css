@@ -1,0 +1,172 @@
+ body {
+     margin: 0;
+     font-family: 'Source Sans Pro', Arial, sans-serif;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ .first {
+     background-color: black;
+     color: white;
+     background-image: url("images/banner.jpg");
+     padding: 170px 130px;
+     width: 1439px;
+     height: 560px;
+     opacity: 0.7;
+
+ }
+
+ .first h1 {
+
+     z-index: 2;
+     border-bottom: 1px solid;
+     padding-bottom: 20px;
+     font-size: 55px;
+ }
+
+p {
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+ .image-block {
+     background: url("images/pic01.jpg");
+     height: 430px;
+
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+ }
+
+ .column {
+     float: left;
+     width: 50%
+ }
+
+ .button {
+     color: white;
+     border: 1px solid;
+     padding: 15px 45px;
+     text-decoration: none;
+     text-transform: uppercase;
+     transform: translateX(100px); <!--???-->
+ }
+
+ .clearfix {
+     clear: both;
+ }
+
+ .img-1 {
+     background-image: url("images/pic01.jpg");
+ }
+
+ .img-2 {
+     background-image: url("images/pic02.jpg");
+ }
+
+ .img-3 {
+     background-image: url("images/pic03.jpg");
+ }
+
+ .img-4 {
+     background-image: url("images/pic04.jpg");
+ }
+
+ .img-5 {
+     background-image: url("images/pic05.jpg");
+ }
+
+ .img-6 {
+     background-image: url("images/pic06.jpg");
+ }
+
+ .column60 {
+     width: 60%;
+ }
+
+ .column40 {
+     width: 40%;
+ }
+
+ .image-block h2 {
+     border-bottom: 1px solid;
+     padding-bottom: 15px;
+     max-width: 200px;
+ }
+
+ image-block p {
+     text-transform: uppercase;
+ }
+
+ .row:after {
+     content: "";
+     display: block;
+     clear: both;
+
+ }
+
+ .fade1 {
+     padding: 150px 70px;
+     height: 100%;
+     background: rgba(24, 198, 220, 0.81);
+     transition: background 0.5s ease 0.1s;
+ }
+
+ .fade1:hover {
+     background: rgba(0, 0, 0, 0.0);
+ }
+.fade2 {
+     padding: 150px 70px;
+     height: 100%;
+     background: rgba(140, 127, 183, 0.81);
+     transition: background 0.5s ease 0.1s;
+ }
+
+ .fade2:hover {
+     background: rgba(0, 0, 0, 0.0);
+ }
+.fade3 {
+     padding: 150px 70px;
+     height: 100%;
+     background: rgba(220, 120, 113, 0.81);
+     transition: background 0.5s ease 0.1s;
+ }
+
+ .fade3:hover {
+     background: rgba(0, 0, 0, 0.0);
+ }
+.fade4 {
+     padding: 150px 70px;
+     height: 100%;
+     background: rgba(218, 171, 127, 0.81);
+     transition: background 0.5s ease 0.1s;
+ }
+
+ .fade4:hover {
+     background: rgba(0, 0, 0, 0.0);
+ }
+.fade5 {
+     padding: 150px 70px;
+     height: 100%;
+     background: rgba(121, 153, 216, 0.81);
+     transition: background 0.5s ease 0.1s;
+ }
+
+ .fade5:hover {
+     background: rgba(0, 0, 0, 0.0);
+ }
+.fade6 {
+     padding: 150px 70px;
+     height: 100%;
+     background: rgba(122, 204, 179, 0.81);
+     transition: background 0.5s ease 0.1s;
+ }
+
+ .fade6:hover {
+     background: rgba(0, 0, 0, 0.0);
+ }
+
